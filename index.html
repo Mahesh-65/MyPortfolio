@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesh D - Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div class="loader-wrapper">
+    <div class="loader">
+        <div class="loader-text">M.D.</div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+    </div>
+</div>
+
+<!-- Background Shapes -->
+<div class="floating-shape shape-1"></div>
+<div class="floating-shape shape-2"></div>
+<div class="floating-shape shape-3"></div>
+
+<!-- Header -->
+<header class="header">
+    <div class="container header-container">
+        <div class="logo">M.<span>D.</span></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-background"></div>
+    <div class="container hero-container">
+        <div class="hero-content">
+            <div class="hero-greeting">Hi there, I'm</div>
+            <h1 class="hero-title"><span class="gradient-text">Mahesh D</span></h1>
+            <h2 class="hero-subtitle">DevOps Engineer & Content Creator</h2>
+            <p class="hero-description">
+                A passionate DevOps Engineer at UST who thrives on building scalable cloud infrastructure and automating complex workflows. Beyond the tech world, I'm a YouTube Creator sharing insights and experiences. I love traveling, exploring new places, and finding the perfect balance between my professional commitments, creative pursuits, and personal adventures. Life is about harmonizing work, passion, and exploration, and I'm here to make the most of every opportunity.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    View My Work <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Get In Touch
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="tel:+919944819733" class="social-link">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <a href="mailto:mahesh.d.5903@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mahesh59/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Mahesh-65" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/maheshrevs" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@MaheshRevs" target="_blank" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-visual-inner">
+                <div class="hero-visual-frame">
+                    <img src="./images/profile.jpg" alt="Profile" style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                </div>
+                <div class="hero-visual-frame"></div>
+                <div class="hero-visual-frame"></div>
+            </div>
+            <div class="hero-stats stats-1">
+                <div class="hero-stats-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="hero-stats-text">
+                    <div class="hero-stats-label">DevOps Engineer</div>
+                    <div class="hero-stats-value">UST</div>
+                </div>
+            </div>
+            <div class="hero-stats stats-2">
+                <div class="hero-stats-icon">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <div class="hero-stats-text">
+                    <div class="hero-stats-label">Creator</div>
+                    <div class="hero-stats-value">YouTube and Instagram</div>
+                </div>
+            </div>
+            <div class="hero-stats stats-3">
+                <div class="hero-stats-icon">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div class="hero-stats-text">
+                    <div class="hero-stats-label">Balancing life</div>
+                    <div class="hero-stats-value">Profession and passion</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-indicator-line">
+            <div class="scroll-indicator-dot"></div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="section about" id="about">
+    <div class="container">
+        <div class="section-title-container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+                Get to know more about my background, skills, and what drives me
+            </p>
+        </div>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-tagline">Personal Background</div>
+                <h3 class="about-heading">DevOps Engineer by Profession, Biker by Passion.</h3>
+                <p class="about-text">
+                    I am a DevOps Engineer at UST with a strong foundation in Computer Science and Engineering, specializing in cloud infrastructure, CI/CD pipelines, and automation. I focus on designing and implementing scalable, reliable systems that improve operational efficiency and support high-quality software delivery. My experience spans cloud platforms, containerization, Infrastructure as Code (IaC), monitoring, and end-to-end DevOps toolchains, enabling me to build resilient systems and streamline development workflows.
+                </p>
+                <p class="about-text">
+                    Beyond my professional role, I am also the creator of MaheshRevs, where I share my passion for biking, travel, and real-world experiences, connecting with a growing community through engaging content that reflects my journey both on the road and in the tech world. This creative outlet allows me to express a different side of myself while staying disciplined, consistent, and innovative, qualities that also strengthen my professional mindset.
+                </p>
+                <p class="about-text">
+                    I strongly believe in maintaining a healthy balance between profession and passion, as DevOps demands precision, automation, and reliability, while MaheshRevs fuels my creativity, storytelling, and connection with people. Together, they shape my personality, structured in systems and expressive in creativity, keeping me motivated, enhancing my problem-solving approach, and enabling me to bring fresh perspectives to both my technical work and content creation. By combining technical expertise with creative energy, I strive to build efficient, automated infrastructure in my professional life while continuing to grow MaheshRevs as a meaningful personal brand, achieving harmony between professional excellence and personal fulfillment.
+                </p>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <div class="skill-name">Java</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <div class="skill-name">Spring Boot</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="skill-name">Python</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="skill-name">Machine Learning</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="skill-name">Artificial Intelligence</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <div class="skill-name">MySQL</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+                        <div class="skill-name">AWS</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa-solid fa-code-branch"></i></div>
+                        <div class="skill-name">Git/GitHub</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-image-container">
+                    <div class="about-image-bg"></div>
+                    <img src="./images/hero-section.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-decorations">
+                    <div class="about-decoration"></div>
+                    <div class="about-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section projects" id="projects">
+    <div class="container">
+        <div class="section-title-container">
+            <h2 class="section-title">My Work</h2>
+            <p class="section-subtitle">
+                Explore a selection of my recent projects and professional work.
+            </p>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/interview.jpg" alt="Interview">
+                    <div class="project-overlay"></div>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">OpenCV</span>
+                        <span class="project-tag">LLM</span>
+                        <span class="project-tag">Postman</span>
+                        <span class="project-tag">Text Extraction</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">RecruSkill - An AI powered Interview Simulator</h3>
+                    <p class="project-description">
+                        Interview Simulator that enables users to practice realistic interviews with face detection, real-time feedback, and performance insights, helping users enhance their interview skills effectively.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Mahesh-65/Interview-Simulator" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/cards.jpg" alt="Visiting Card Recognition">
+                    <div class="project-overlay"></div>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">OCR</span>
+                        <span class="project-tag">LLM</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">NLP</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Visiting Card Recognition</h3>
+                    <p class="project-description">
+                        Visiting Card Recognition is a web application that extracts and organizes information from visiting card images using OCR and a language model to present structured, coherent data.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Mahesh-65/VisitingCardRecognition" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/construction.jpg" alt="Construction Cost Estimator">
+                    <div class="project-overlay"></div>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">Linear Regression</span>
+                        <span class="project-tag">Full Stack</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Construction Cost Estimator</h3>
+                    <p class="project-description">
+                        Construction Cost Estimator is a Python-based application that uses machine learning to predict construction project costs, providing accurate, data-driven estimates for efficient budgeting and planning.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Mahesh-65/ConstructionCostEstimator" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/image.jpg" alt="Image classification">
+                    <div class="project-overlay"></div>
+                    <div class="project-tags">
+                        <span class="project-tag">Neural Networks</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">OpenCV</span>
+                        <span class="project-tag">Logistic Regression</span>
+                        <span class="project-tag">Image Processing</span>
+                        <span class="project-tag">Jupyter Notebook</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Sports Celebrity Image Classification</h3>
+                    <p class="project-description">
+                        Developed an image recognition system to classify sports celebrities by integrating computer vision techniques with a Logistic Regression model for accurate multi-personality identification.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Mahesh-65/ImageClassification" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YouTube Videos Section -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=N_x0CytipXU&t=103s" target="_blank" style="text-decoration: none; display: block;">
+                    <div class="project-image">
+                        <img src="https://img.youtube.com/vi/N_x0CytipXU/sddefault.jpg" alt="YouTube Video 1" onerror="this.onerror=null; this.src='https://img.youtube.com/vi/N_x0CytipXU/hqdefault.jpg';" loading="lazy">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">YouTube</span>
+                            <span class="project-tag">Content Creation</span>
+                            <span class="project-tag">Biking</span>
+                            <span class="project-tag">Travel</span>
+                        </div>
+                        <div class="youtube-play-button">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="project-content">
+                    <h3 class="project-title">Ownership review of TVS RTX300 | Top model - Tarn bronze | MaheshRevs</h3>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/watch?v=N_x0CytipXU&t=103s" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=oaa4BJWpZH4" target="_blank" style="text-decoration: none; display: block;">
+                    <div class="project-image">
+                        <img src="https://img.youtube.com/vi/oaa4BJWpZH4/maxresdefault.jpg" alt="YouTube Video 2" onerror="this.src='https://img.youtube.com/vi/oaa4BJWpZH4/hqdefault.jpg'">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">YouTube</span>
+                            <span class="project-tag">Content Creation</span>
+                            <span class="project-tag">Biking</span>
+                            <span class="project-tag">Travel</span>
+                        </div>
+                        <div class="youtube-play-button">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="project-content">
+                    <h3 class="project-title">TVS RTX300's TFT Explained | Top Model | TVS RTX 300 | MaheshRevs</h3>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/watch?v=oaa4BJWpZH4" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="section experience" id="experience">
+    <div class="container">
+        <div class="section-title-container">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">
+                My professional journey and educational background
+            </p>
+        </div>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">February 2026 - Present</div>
+                    <h3 class="timeline-title">DevOps Engineer</h3>
+                    <h4 class="timeline-subtitle">UST</h4>
+                    <p class="timeline-description">
+                        Working as a DevOps Engineer at UST, focusing on cloud infrastructure, CI/CD pipelines, and automation. Designing and implementing scalable, reliable systems that improve operational efficiency and support high-quality software delivery. Utilizing cloud platforms, containerization, Infrastructure as Code (IaC), and monitoring solutions to build resilient systems and streamline development workflows.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">January 2026 - Present</div>
+                    <h3 class="timeline-title">Content Creator</h3>
+                    <h4 class="timeline-subtitle">MaheshRevs</h4>
+                    <p class="timeline-description">
+                        Creating engaging content as the founder of MaheshRevs, sharing passion for biking, travel, and real-world experiences. Building a growing community through YouTube and Instagram, connecting with audiences through authentic storytelling and valuable insights. Balancing content creation with professional commitments while maintaining consistency, discipline, and innovation in both technical work and creative pursuits.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">September 2024 - November 2025</div>
+                    <h3 class="timeline-title">Backend Developer</h3>
+                    <h4 class="timeline-subtitle">Luna Lyft Limited</h4>
+                    <p class="timeline-description">
+                        Developed a betting card game for Crypto Unicorns, contributing to a project that secured 20k USDT in community funding. Delivered real-time backend functionalities encompassing player management, power tracking, next-player logic, and leadership modules while collaborating remotely from London, UK. Redesigned the UI/UX for the board layout, player interfaces, and onboarding components, and implemented user action monitoring through Google Analytics to optimize engagement. Additionally, supported the creation of a secure authentication and authorization layer using the Ethereum authentication protocol with seamless MetaMask integration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">May 2024 - July 2024</div>
+                    <h3 class="timeline-title">Data Science Intern</h3>
+                    <h4 class="timeline-subtitle">JesperApps Software Services</h4>
+                    <p class="timeline-description">
+                        Implemented an end-to-end OCR and NLP pipeline using Tesseract OCR and spaCy NER to automatically extract key contact details from visiting cards, achieving a 90% reduction in manual data entry. Leveraged spaCy's entity recognition combined with custom rule-based NLP models to accurately classify business contacts by company for streamlined organization. Developed and exposed Flask-based REST APIs to deliver the extracted data with sub-second response times, ensuring seamless integration with backend systems and supporting real-time applications.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">September 2021 - May 2025</div>
+                    <h3 class="timeline-title">Student-UG</h3>
+                    <h4 class="timeline-subtitle">Alliance University</h4>
+                    <p class="timeline-description">
+                        Completed a Bachelor of Technology Degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning from Alliance University, where the program provided a strong foundation in core computer science principles along with advanced knowledge in emerging technologies such as AI, ML, data science, and intelligent systems, enabling the development of innovative solutions and practical skills through rigorous coursework, research-oriented projects, and collaborative learning experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="section achievements" id="achievements">
+    <div class="container">
+        <div class="section-title-container">
+            <h2 class="section-title">Achievements</h2>
+            <p class="section-subtitle">
+                Recognitions and milestones I've reached along my journey
+            </p>
+        </div>
+        <div class="achievements-container">
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <h3 class="achievement-title">3rd Place @ Intra-College Crack the Code contest.</h3>
+                <p class="achievement-description">
+                    Secured 3rd place in the "Crack The Code" contest by solving challenging programming problems efficiently, demonstrating practical coding skills and logical thinking in a competitive environment.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <h3 class="achievement-title">3rd place @ Intra-College Modelathon Contest</h3>
+                <p class="achievement-description">
+                    Secured 3rd place in the Modelathon contest by developing a machine learning model to predict mobile phone performance based on key specifications, providing insights for better device evaluation.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <h3 class="achievement-title">AWS Certified Cloud Practitioner</h3>
+                <p class="achievement-description">
+                    AWS Certified Cloud Practitioner - A foundational certification demonstrating a solid understanding of cloud concepts, AWS services, security, pricing, and core cloud best practices.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <h3 class="achievement-title">MaheshRevs YouTube Channel</h3>
+                <p class="achievement-description">
+                    Successfully launched and growing MaheshRevs YouTube channel, creating engaging content about biking, travel, and tech reviews. Building a community of engaged viewers through authentic storytelling and valuable insights, sharing experiences from the road and technical expertise.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <h3 class="achievement-title">Content Creator - MaheshRevs</h3>
+                <p class="achievement-description">
+                    Established MaheshRevs as a content creation brand across YouTube and Instagram, consistently producing quality content that resonates with audiences interested in biking adventures, travel experiences, and tech insights. Balancing professional DevOps career with creative content creation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section contact" id="contact">
+    <div class="container">
+        <div class="section-title-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+                Curious about my work or looking to collaborate? I'd be happy to connect and contribute!
+            </p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 class="contact-heading">Let's Connect & Collaborate</h3>
+                <p class="contact-text">
+                    As a DevOps Engineer at UST and the creator behind MaheshRevs, I'm always open to new opportunities, collaborations, and meaningful connections. Whether you're looking to discuss cloud infrastructure, DevOps best practices, content creation, or simply want to connect about biking, travel, or tech—I'd love to hear from you. Feel free to reach out through any of the options below.
+                </p>
+                <div class="contact-links">
+                    <a href="tel:+919944819733" class="contact-link">
+                        <div class="contact-link-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-link-text">
+                            <span class="contact-link-label">Phone</span>
+                            <span class="contact-link-value">+91 9944819733</span>
+                        </div>
+                    </a>
+                    <a href="mailto:mahesh.d.5903@gmail.com" class="contact-link">
+                        <div class="contact-link-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-link-text">
+                            <span class="contact-link-label">Email</span>
+                            <span class="contact-link-value">mahesh.d.5903@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/@MaheshRevs" target="_blank" class="contact-link">
+                        <div class="contact-link-icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="contact-link-text">
+                            <span class="contact-link-label">YouTube</span>
+                            <span class="contact-link-value">@MaheshRevs</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/maheshrevs" target="_blank" class="contact-link">
+                        <div class="contact-link-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-link-text">
+                            <span class="contact-link-label">Instagram</span>
+                            <span class="contact-link-value">@maheshrevs</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="post" novalidate>
+                    <input type="hidden" name="access_key" value="237f6033-f075-4905-b917-b7a4c0146407">
+                    <input type="hidden" name="subject" value="New message from Portfolio Contact Form">
+                    <input type="hidden" name="from_name" value="Portfolio Website">
+                    <input type="text" name="botcheck" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;pointer-events:none;" aria-hidden="true">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="John Doe" name="name">
+                        <div id="name-error" style="display:none;color:#e53935;font-size:0.9rem;margin-top:6px;">Name cannot be empty.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="john@example.com" name="email">
+                        <div id="email-error" style="display:none;color:#e53935;font-size:0.9rem;margin-top:6px;">Please enter a valid email address.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" class="form-control" placeholder="How can I help you?" name="message"></textarea>
+                        <div id="message-error" style="display:none;color:#e53935;font-size:0.9rem;margin-top:6px;">Message cannot be empty.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Mahesh D</a>
+                <p class="footer-text">
+                    Mahesh D
+A DevOps Engineer at UST and a Computer Science graduate with a simple and practical approach to building reliable systems. I am passionate about cloud infrastructure, automation, and continuous learning, and I focus on improving development workflows through CI/CD and DevOps practices. Along with my professional growth, I also pursue my passion through MaheshRevs, where I share my interests in biking and travel, maintaining a balanced journey between technology and creativity.
+                </p>
+                <div class="footer-contact-details">
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span><a href="tel:+919944819733">+91 9944819733</a></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><a href="mailto:mahesh.d.5903@gmail.com">mahesh.d.5903@gmail.com</a></span>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="tel:+919944819733" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:mahesh.d.5903@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mahesh59/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Mahesh-65" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/maheshrevs" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@MaheshRevs" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links-container">
+                <h3 class="footer-heading">Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">
+                        <i class="fas fa-chevron-right"></i> Home
+                    </a>
+                    <a href="#about" class="footer-link">
+                        <i class="fas fa-chevron-right"></i> About
+                    </a>
+                    <a href="#projects" class="footer-link">
+                        <i class="fas fa-chevron-right"></i> My Work
+                    </a>
+                    <a href="#experience" class="footer-link">
+                        <i class="fas fa-chevron-right"></i> Experience
+                    </a>
+                    <a href="#achievements" class="footer-link">
+                        <i class="fas fa-chevron-right"></i> Achievements
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mahesh D. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
