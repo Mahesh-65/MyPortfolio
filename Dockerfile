@@ -4,4 +4,4 @@ RUN apt-get install nginx -y
 WORKDIR /var/www/html
 COPY . /var/www/html
 EXPOSE 88
-ENTRYPOINT nginx -D FOREGROUND
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
